@@ -3,6 +3,7 @@ package Tires;
 public class MercedesTire extends Tire {
     @Override
     public void tireType() {
+        System.out.println("Pneus: ");
         System.out.println("Michelin");
     }
 
