@@ -9,17 +9,17 @@ import Tires.Tire;
 
 public class MercedesFactory extends CarFactory {
     @Override
-    Car createCar() {
+    public Car createCar() {
         return new MercedesCar();
     }
 
     @Override
-    Engine createEngine() {
+    public Engine createEngine() {
         return new MercedesEngine();
     }
 
     @Override
-    Tire createTire() {
+    public Tire createTire() {
         return new MercedesTire();
     }
 }
