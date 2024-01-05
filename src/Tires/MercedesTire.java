@@ -3,11 +3,11 @@ package Tires;
 public class MercedesTire extends Tire {
     @Override
     public void tireType() {
-        System.out.println("Pneus da Michelin");
+        System.out.println("Michelin");
     }
 
     @Override
     public void tireSize() {
-        System.out.println("Pneus 245/45R18");
+        System.out.println("245/45R18");
     }
 }
