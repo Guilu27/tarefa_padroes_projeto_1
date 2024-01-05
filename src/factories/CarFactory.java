@@ -5,9 +5,9 @@ import Engines.Engine;
 import Tires.Tire;
 
 public abstract class CarFactory {
-    abstract Car createCar();
+    public abstract Car createCar();
 
-    abstract Engine createEngine();
+    public abstract Engine createEngine();
 
-    abstract Tire createTire();
+    public abstract Tire createTire();
 }
